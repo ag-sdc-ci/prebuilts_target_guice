@@ -1,0 +1,6 @@
+shadow prebuilt repo: guice (target, extractive JVM payload)
+  upstream: external/guice
+  api-level: 34 (local ag-build rebuild 2026-10-17, branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.guice.apex
+  src: extracted base payload + root Android.bp
+  date: 2026-10-17

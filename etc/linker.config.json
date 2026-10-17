@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_guice-x86_64-v2.so",
+		    "libdummy_ext_guice.so",
+		    "libdummy_shared_guice-x86_64-v2.so",
+		    "libdummy_shared_guice.so"
+	],
+	"visible": true
+}

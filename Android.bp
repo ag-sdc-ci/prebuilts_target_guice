@@ -1,0 +1,41 @@
+// Auto-generated prebuilt Blueprint for external/guice
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.guice
+
+package {
+    default_visibility: ["//visibility:public"],
+    default_applicable_licenses: ["external_guice_license"],
+}
+
+license {
+    name: "external_guice_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "COPYING",
+        "NOTICE",
+    ],
+}
+
+java_import {
+    name: "guice",
+    jars: [
+        "share/guice/guice__guice-7.0.0.jar",
+        "share/guice/guice__javax.inject-1.jar",
+        "share/guice/guice__aopalliance-1.0.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "guice-no-guava",
+    jars: [
+        "share/guice/guice__guice-7.0.0.jar",
+        "share/guice/guice__javax.inject-1.jar",
+        "share/guice/guice__aopalliance-1.0.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
